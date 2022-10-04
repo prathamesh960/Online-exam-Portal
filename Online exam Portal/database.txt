@@ -1,0 +1,21 @@
+create database onlineexam;
+
+use onlineexam;
+
+create table users(username varchar(50) primary key,password varchar(50),mobilenumber varchar(50),emailid varchar(50),dateofbirth date);
+
+create table questions(qno int,question varchar(200),option1 varchar(200),
+option2 varchar(200),option3 varchar(200),option4 varchar(200),answer varchar(200),subject varchar(200));
+
+
+insert into questions values(1,'what is 2+2','4','8','12','16','4','maths');
+insert into questions values(2,'what is 3+3','4','6','12','16','6','maths');
+insert into questions values(3,'what is 4+4','4','8','12','16','8','maths');
+
+insert into questions values(1,'capital of Maharashtra is ? ','pune','nashik','mumbai','satara','mumbai','gk');
+insert into questions values(2,'capital of gujrath is ? ','pune','nashik','ahembadabad','satara','ahembadabad','gk');
+
+
+create table score(username varchar(200),subject varchar(200),marks int);
+
+

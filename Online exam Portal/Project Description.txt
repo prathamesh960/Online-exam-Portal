@@ -1,0 +1,15 @@
+Project Name - Online Exam
+
+Backend - Java
+Frontend - HTML , CSS , Javascript 
+Frameworks - Spring Boot , Spring MVC , Hibernate 
+Tag Library :- JSTL
+Server - Tomcat 
+Database - MYSQL
+
+Overview - 
+	 
+	There are 2 users of this project . user admin will manage questions which are MCQ questions . User admin will also set duration of exam . User student will give exam . 
+    
+	user will get to see one question at a time . Once user submit answer of particular question , user can go to next question or previous question  . User can update answer also . Once user ends exam , score will be caluclated  and displayed  . user will get to see all submitted question's correct answer and submitted answer at the end of exam .
+ 	
